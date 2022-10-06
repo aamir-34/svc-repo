@@ -11,7 +11,7 @@ env:
   GKE_CLUSTER: work-cluster
   GKE_ZONE: us-central1-c
   DEPLOYMENT_NAME: github-actions-gke
-  IMAGE: github-actions-gke-image
+  IMAGE: github-actions-gke-image1
   TAG: ${{ github.sha }}
 
 jobs:
