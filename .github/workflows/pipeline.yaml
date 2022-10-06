@@ -11,7 +11,7 @@ env:
   GKE_ZONE: us-central1-c
   DEPLOYMENT_NAME: github-actions-gke
   IMAGE: nginx:latest
-  TAG: 1.0.0
+  TAG: 1.0.2
 
 jobs:
   setup-build-publish-deploy:
